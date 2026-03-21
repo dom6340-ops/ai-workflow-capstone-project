@@ -9,14 +9,14 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.pipeline import Pipeline
-
-from logger import update_predict_log, update_train_log
-from cslib import fetch_ts, engineer_features
+sys.path.append(os.path.join(os.path.dirname(__file__),'..'))
+from src.logger import update_predict_log, update_train_log
+from solution_guidance.cslib import fetch_ts, engineer_features
 
 ## model specific variables (iterate the version and note with each change)
 MODEL_DIR = "models"
 MODEL_VERSION = 0.1
-MODEL_VERSION_NOTE = "supervised learing model for time-series"
+MODEL_VERSION_NOTE = "supervised learning model for time-series"
 
 def _model_train(df,tag,test=False):
     """
@@ -48,21 +48,21 @@ def _model_train(df,tag,test=False):
                                                         shuffle=True, random_state=42)
     ## train a random forest model
     param_grid_rf = {
-    'rf__criterion': ['mse','mae'],
+    'rf__criterion': ['squared_error','absolute_error'],
     'rf__n_estimators': [10,15,20,25]
     }
 
     pipe_rf = Pipeline(steps=[('scaler', StandardScaler()),
                               ('rf', RandomForestRegressor())])
     
-    grid = GridSearchCV(pipe_rf, param_grid=param_grid_rf, cv=5, iid=False, n_jobs=-1)
+    grid = GridSearchCV(pipe_rf, param_grid=param_grid_rf, cv=5, n_jobs=-1)
     grid.fit(X_train, y_train)
     y_pred = grid.predict(X_test)
     eval_rmse =  round(np.sqrt(mean_squared_error(y_test,y_pred)))
     
     ## retrain using all data
     grid.fit(X, y)
-    model_name = re.sub("\.","_",str(MODEL_VERSION))
+    model_name = re.sub(r"\.","_",str(MODEL_VERSION))
     if test:
         saved_model = os.path.join(MODEL_DIR,
                                    "test-{}-{}.joblib".format(tag,model_name))
@@ -107,9 +107,9 @@ def model_train(data_dir,test=False):
         if test and country not in ['all','united_kingdom']:
             continue
         
-        _model_train(df,country,test=test)
+        _model_train(df,country)
     
-def model_load(prefix='sl',data_dir=None,training=True):
+def model_load(prefix='sl',data_dir=None,training=True,test=False,prod=False):
     """
     example funtion to load model
     
@@ -117,7 +117,10 @@ def model_load(prefix='sl',data_dir=None,training=True):
     """
 
     if not data_dir:
-        data_dir = os.path.join("..","data","cs-train")
+        if prod:
+            data_dir = os.path.join('cs-production')
+        else:
+            data_dir = os.path.join("cs-train")
     
     models = [f for f in os.listdir(os.path.join(".","models")) if re.search("sl",f)]
 
@@ -138,7 +141,7 @@ def model_load(prefix='sl',data_dir=None,training=True):
         
     return(all_data, all_models)
 
-def model_predict(country,year,month,day,all_models=None,test=False):
+def model_predict(country,year,month,day,all_models=None,test=False,prod=False):
     """
     example funtion to predict from model
     """
@@ -148,14 +151,14 @@ def model_predict(country,year,month,day,all_models=None,test=False):
 
     ## load model if needed
     if not all_models:
-        all_data,all_models = model_load(training=False)
+        all_data,all_models = model_load(training=False,test=test,prod=prod)
     
     ## input checks
     if country not in all_models.keys():
         raise Exception("ERROR (model_predict) - model for country '{}' could not be found".format(country))
 
     for d in [year,month,day]:
-        if re.search("\D",d):
+        if re.search(r"\D",d):
             raise Exception("ERROR (model_predict) - invalid year, month or day")
     
     ## load data
@@ -183,17 +186,17 @@ def model_predict(country,year,month,day,all_models=None,test=False):
     if 'predict_proba' in dir(model) and 'probability' in dir(model):
         if model.probability == True:
             y_proba = model.predict_proba(query)
-
-
+    preds = {'y_pred':y_pred[0]}
+    if y_proba is not None:
+        preds['y_proba'] = y_proba    
     m, s = divmod(time.time()-time_start, 60)
     h, m = divmod(m, 60)
     runtime = "%03d:%02d:%02d"%(h, m, s)
 
     ## update predict log
-    update_predict_log(country,y_pred,y_proba,target_date,
-                       runtime, MODEL_VERSION, test=test)
+    update_predict_log(country,target_date, preds['y_pred'] ,runtime, MODEL_VERSION,note='rf', test=test)
     
-    return({'y_pred':y_pred,'y_proba':y_proba})
+    return(preds)
 
 if __name__ == "__main__":
 

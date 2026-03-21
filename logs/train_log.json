@@ -1,0 +1,2081 @@
+[
+    {
+        "timestamp": "2026-03-17T14:35:26.212462",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 38938.23464488635,
+            "rmse": 45250.39673646004
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:27.296382",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2556.243759854403,
+            "rmse": 3141.6065950410366
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:28.385226",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 725.9125781915837,
+            "rmse": 1029.7402016330268
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:29.570059",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 484.26173583984365,
+            "rmse": 616.5176310676892
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:30.395184",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "mae": 241.79980558161148,
+            "rmse": 506.31915676979503
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:31.660485",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 160.8627685324929,
+            "rmse": 228.43063582993778
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:32.923646",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 176.24427618438153,
+            "rmse": 242.24425705434015
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:34.153298",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2065.6561726185187,
+            "rmse": 3466.0442951426344
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:34.791189",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "mae": 2450.1340941345215,
+            "rmse": 3991.0155853469782
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:35.804416",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 776.1913143088598,
+            "rmse": 955.9256394134458
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T14:35:36.832145",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 28087.50194886363,
+            "rmse": 35304.91103401432
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:05.875018",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:05",
+        "metrics": {
+            "rmse": 17347
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:07.025802",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:06",
+        "metrics": {
+            "mae": 38938.23464488635,
+            "rmse": 45250.39673646004
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:08.200850",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 1653
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:09.302099",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 2556.243759854403,
+            "rmse": 3141.6065950410366
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:10.388759",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 541
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:11.466594",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 725.9125781915837,
+            "rmse": 1029.7402016330268
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:12.663742",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 510
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:13.891175",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 484.26173583984365,
+            "rmse": 616.5176310676892
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:14.577921",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 952
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:15.455965",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 241.79980558161148,
+            "rmse": 506.31915676979503
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:16.462820",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 104
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:17.725150",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 160.8627685324929,
+            "rmse": 228.43063582993778
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:18.618112",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 76
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:19.858275",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 176.24427618438153,
+            "rmse": 242.24425705434015
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:20.907779",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 331
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:22.191209",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 2065.6561726185187,
+            "rmse": 3466.0442951426344
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:22.858190",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 2326
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:23.536246",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2450.1340941345215,
+            "rmse": 3991.0155853469782
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:24.563247",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 326
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:25.584305",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 776.1913143088598,
+            "rmse": 955.9256394134458
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:26.724231",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 19980
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:27.775899",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 28087.50194886363,
+            "rmse": 35304.91103401432
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:44.672667",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:03",
+        "metrics": {
+            "rmse": 16815
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:45.756067",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:04",
+        "metrics": {
+            "mae": 38938.23464488635,
+            "rmse": 45250.39673646004
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:46.687257",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 1568
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:47.691731",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2556.243759854403,
+            "rmse": 3141.6065950410366
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:48.625185",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 600
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:49.602437",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 725.9125781915837,
+            "rmse": 1029.7402016330268
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:50.669925",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 496
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:51.750840",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 484.26173583984365,
+            "rmse": 616.5176310676892
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:52.264689",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 908
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:53.014845",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 241.79980558161148,
+            "rmse": 506.31915676979503
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:53.878924",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 118
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:55.023758",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 160.8627685324929,
+            "rmse": 228.43063582993778
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:55.732322",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 77
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:56.840879",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 176.24427618438153,
+            "rmse": 242.24425705434015
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:57.686580",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 360
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:58.828126",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2065.6561726185187,
+            "rmse": 3466.0442951426344
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:19:59.358829",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 2992
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:19:59.917850",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2450.1340941345215,
+            "rmse": 3991.0155853469782
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:20:00.769911",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 286
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:20:01.687795",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 776.1913143088598,
+            "rmse": 955.9256394134458
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:20:02.638659",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 19875
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:20:03.576821",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 28087.50194886363,
+            "rmse": 35304.91103401432
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:24.711542",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:05",
+        "metrics": {
+            "rmse": 16715
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:26.027663",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:06",
+        "metrics": {
+            "mae": 38938.23464488635,
+            "rmse": 45250.39673646004
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:27.206250",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 1680
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:28.321616",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 2556.243759854403,
+            "rmse": 3141.6065950410366
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:29.393705",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 634
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:30.479708",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 725.9125781915837,
+            "rmse": 1029.7402016330268
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:31.672667",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 511
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:32.914769",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 484.26173583984365,
+            "rmse": 616.5176310676892
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:33.567133",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 936
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:34.405083",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 241.79980558161148,
+            "rmse": 506.31915676979503
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:35.438411",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 114
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:36.706491",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 160.8627685324929,
+            "rmse": 228.43063582993778
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:37.560689",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 70
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:38.775222",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 176.24427618438153,
+            "rmse": 242.24425705434015
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:39.785907",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 292
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:41.028116",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 2065.6561726185187,
+            "rmse": 3466.0442951426344
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:41.676305",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 4653
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:42.355604",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2450.1340941345215,
+            "rmse": 3991.0155853469782
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:43.444813",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 333
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:44.510098",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 776.1913143088598,
+            "rmse": 955.9256394134458
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T20:21:45.682070",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 19487
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T20:21:46.723286",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 28087.50194886363,
+            "rmse": 35304.91103401432
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:57:47.753042",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:03",
+        "metrics": {
+            "rmse": 16313
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:57:48.822989",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:04",
+        "metrics": {
+            "mae": 38938.23464488635,
+            "rmse": 45250.39673646004
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:57:49.752950",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 1656
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:57:50.794184",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2556.243759854403,
+            "rmse": 3141.6065950410366
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:57:51.698183",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 566
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:57:52.710232",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 725.9125781915837,
+            "rmse": 1029.7402016330268
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:57:53.713470",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "rmse": 514
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:57:54.865722",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 484.26173583984365,
+            "rmse": 616.5176310676892
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:57:55.374236",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 888
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:57:56.163407",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 241.79980558161148,
+            "rmse": 506.31915676979503
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:57:56.998192",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 124
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:57:58.173529",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 160.8627685324929,
+            "rmse": 228.43063582993778
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:57:58.840072",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 90
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:57:59.973462",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 176.24427618438153,
+            "rmse": 242.24425705434015
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:58:00.843864",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 219
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:58:02.003361",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 2065.6561726185187,
+            "rmse": 3466.0442951426344
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:58:02.518479",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 2350
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:58:03.083653",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2450.1340941345215,
+            "rmse": 3991.0155853469782
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:58:04.038551",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 192
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:58:04.973659",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 776.1913143088598,
+            "rmse": 955.9256394134458
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T16:58:05.856729",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 21367
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T16:58:06.852500",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 28087.50194886363,
+            "rmse": 35304.91103401432
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:44.645247",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:03",
+        "metrics": {
+            "rmse": 20038
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:45.706562",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:04",
+        "metrics": {
+            "mae": 38938.23464488635,
+            "rmse": 45250.39673646004
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:46.666325",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 1675
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:47.713681",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 2556.243759854403,
+            "rmse": 3141.6065950410366
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:48.616146",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 580
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:49.617320",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 725.9125781915837,
+            "rmse": 1029.7402016330268
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:50.581700",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 526
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:51.726552",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 484.26173583984365,
+            "rmse": 616.5176310676892
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:52.246320",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 866
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:53.016506",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 241.79980558161148,
+            "rmse": 506.31915676979503
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:53.908969",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 124
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:55.069883",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 160.8627685324929,
+            "rmse": 228.43063582993778
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:55.718406",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 94
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:56.846545",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 176.24427618438153,
+            "rmse": 242.24425705434015
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:57.651632",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 367
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:58.826698",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2065.6561726185187,
+            "rmse": 3466.0442951426344
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:00:59.341637",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 2363
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:00:59.896565",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2450.1340941345215,
+            "rmse": 3991.0155853469782
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:01:00.777869",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 205
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:01:01.713058",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 776.1913143088598,
+            "rmse": 955.9256394134458
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:01:02.566417",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 17748
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:01:03.506609",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 28087.50194886363,
+            "rmse": 35304.91103401432
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:32.191665",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:03",
+        "metrics": {
+            "rmse": 19452
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:33.275958",
+        "tag": "all",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:04",
+        "metrics": {
+            "mae": 38938.23464488635,
+            "rmse": 45250.39673646004
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:34.177477",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 1532
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:35.255786",
+        "tag": "eire",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2556.243759854403,
+            "rmse": 3141.6065950410366
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:36.226052",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 541
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:37.236057",
+        "tag": "france",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 725.9125781915837,
+            "rmse": 1029.7402016330268
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:38.225833",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 504
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:39.385857",
+        "tag": "germany",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 484.26173583984365,
+            "rmse": 616.5176310676892
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:39.887961",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 903
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:40.683632",
+        "tag": "hong_kong",
+        "dates": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 241.79980558161148,
+            "rmse": 506.31915676979503
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:41.523544",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 116
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:42.705837",
+        "tag": "netherlands",
+        "dates": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 160.8627685324929,
+            "rmse": 228.43063582993778
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:43.380940",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 79
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:44.538047",
+        "tag": "norway",
+        "dates": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 176.24427618438153,
+            "rmse": 242.24425705434015
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:45.456273",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 304
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:46.636022",
+        "tag": "portugal",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:02",
+        "metrics": {
+            "mae": 2065.6561726185187,
+            "rmse": 3466.0442951426344
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:47.171249",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 3355
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:47.737769",
+        "tag": "singapore",
+        "dates": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 2450.1340941345215,
+            "rmse": 3991.0155853469782
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:48.599547",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 329
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:49.557714",
+        "tag": "spain",
+        "dates": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 776.1913143088598,
+            "rmse": 955.9256394134458
+        },
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-20T17:09:50.459030",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:00",
+        "metrics": {
+            "rmse": 17434
+        },
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-20T17:09:51.425874",
+        "tag": "united_kingdom",
+        "dates": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "metrics": {
+            "mae": 28087.50194886363,
+            "rmse": 35304.91103401432
+        },
+        "test": false
+    }
+]

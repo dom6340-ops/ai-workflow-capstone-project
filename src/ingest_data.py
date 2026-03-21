@@ -14,10 +14,13 @@ def ingest_data(train='cs-train', test='cs-production'):
     Returns:
         dict: A dictionary containing the ingested datasets with keys 'train' and 'test'.
     '''
-
+    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..','data'))
+    
     datasets = {}
     for label,dir in [('train',train),('test',test)]:
-        if not os.path.exists(dir):
+        path = os.path.join(PROJECT_ROOT,dir)
+        print(path)
+        if not os.path.exists(path):
             raise FileNotFoundError(f"Data directory '{dir}' not found.")
         datasets[label] = fetch_ts(dir,clean=False)
 
@@ -26,4 +29,3 @@ def ingest_data(train='cs-train', test='cs-production'):
 if __name__ == "__main__":
     datasets = ingest_data()
     print(f'Loaded the following datasets: {datasets.keys()}')
-    

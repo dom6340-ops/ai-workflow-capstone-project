@@ -1,0 +1,1222 @@
+[
+    {
+        "timestamp": "2026-03-17T21:09:55.403291",
+        "tag": "all",
+        "dates": "2019-10-01",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 200566.68930000003,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:09:55.548155",
+        "tag": "all",
+        "dates": "2019-10-01",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 265643.8125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:09:56.726103",
+        "tag": "all",
+        "dates": "2019-10-02",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 151421.60720000003,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:09:56.873214",
+        "tag": "all",
+        "dates": "2019-10-02",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 261091.453125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:09:58.142729",
+        "tag": "all",
+        "dates": "2019-10-03",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 183800.57840000006,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:09:58.294367",
+        "tag": "all",
+        "dates": "2019-10-03",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 260660.625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:09:59.486948",
+        "tag": "all",
+        "dates": "2019-10-04",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 228749.43310000002,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:09:59.636403",
+        "tag": "all",
+        "dates": "2019-10-04",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 257088.4375,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:00.852937",
+        "tag": "all",
+        "dates": "2019-10-05",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 229282.3241,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:01.008465",
+        "tag": "all",
+        "dates": "2019-10-05",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 253161.921875,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:02.241568",
+        "tag": "all",
+        "dates": "2019-10-06",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 221811.82309999998,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:02.389815",
+        "tag": "all",
+        "dates": "2019-10-06",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 252809.9375,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:03.608580",
+        "tag": "all",
+        "dates": "2019-10-07",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 227942.161,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:03.761396",
+        "tag": "all",
+        "dates": "2019-10-07",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 249751.078125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:04.973458",
+        "tag": "all",
+        "dates": "2019-10-08",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 229282.3241,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:05.119008",
+        "tag": "all",
+        "dates": "2019-10-08",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 249795.34375,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:06.314956",
+        "tag": "all",
+        "dates": "2019-10-09",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 228136.19309999997,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:06.461105",
+        "tag": "all",
+        "dates": "2019-10-09",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 241846.390625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:07.661803",
+        "tag": "all",
+        "dates": "2019-10-10",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 228136.19309999997,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:07.804797",
+        "tag": "all",
+        "dates": "2019-10-10",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 231897.984375,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:09.018787",
+        "tag": "all",
+        "dates": "2019-10-11",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 228136.19309999997,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:09.161930",
+        "tag": "all",
+        "dates": "2019-10-11",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 235650.640625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:10.344651",
+        "tag": "all",
+        "dates": "2019-10-12",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 228136.19309999997,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:10.488440",
+        "tag": "all",
+        "dates": "2019-10-12",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 235676.703125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:11.669864",
+        "tag": "all",
+        "dates": "2019-10-13",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 229420.16710000002,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:11.817083",
+        "tag": "all",
+        "dates": "2019-10-13",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 250540.890625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:13.020127",
+        "tag": "all",
+        "dates": "2019-10-14",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 221009.68509999997,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:13.171407",
+        "tag": "all",
+        "dates": "2019-10-14",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 247689.0625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:14.421563",
+        "tag": "all",
+        "dates": "2019-10-15",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 229255.10210000002,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:14.564840",
+        "tag": "all",
+        "dates": "2019-10-15",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 247627.46875,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:15.816178",
+        "tag": "all",
+        "dates": "2019-10-16",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 223591.7421,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:15.968483",
+        "tag": "all",
+        "dates": "2019-10-16",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 244250.1875,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:17.172492",
+        "tag": "all",
+        "dates": "2019-10-17",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 223591.7421,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:17.317092",
+        "tag": "all",
+        "dates": "2019-10-17",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 246401.875,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:18.533835",
+        "tag": "all",
+        "dates": "2019-10-18",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 224549.47119999997,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:18.679964",
+        "tag": "all",
+        "dates": "2019-10-18",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 246028.6875,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:19.890065",
+        "tag": "all",
+        "dates": "2019-10-19",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 223591.7421,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:20.034767",
+        "tag": "all",
+        "dates": "2019-10-19",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 249842.109375,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:21.262376",
+        "tag": "all",
+        "dates": "2019-10-20",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 225173.3261,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:21.406973",
+        "tag": "all",
+        "dates": "2019-10-20",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 262855.78125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:22.629989",
+        "tag": "all",
+        "dates": "2019-10-21",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 217776.901,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:22.780961",
+        "tag": "all",
+        "dates": "2019-10-21",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 261460.859375,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:24.016111",
+        "tag": "all",
+        "dates": "2019-10-22",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 224767.1591,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:24.171170",
+        "tag": "all",
+        "dates": "2019-10-22",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 244939.25,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:25.483906",
+        "tag": "all",
+        "dates": "2019-10-23",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 224767.1591,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:25.639750",
+        "tag": "all",
+        "dates": "2019-10-23",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 243934.8125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:26.846470",
+        "tag": "all",
+        "dates": "2019-10-24",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 223591.7421,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:27.002177",
+        "tag": "all",
+        "dates": "2019-10-24",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 241989.953125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:28.407278",
+        "tag": "all",
+        "dates": "2019-10-25",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 223591.7421,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:28.567416",
+        "tag": "all",
+        "dates": "2019-10-25",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 244177.78125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:29.874462",
+        "tag": "all",
+        "dates": "2019-10-26",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 223591.7421,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:30.052199",
+        "tag": "all",
+        "dates": "2019-10-26",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 243918.03125,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:31.402208",
+        "tag": "all",
+        "dates": "2019-10-27",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 225886.06810000003,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:31.563505",
+        "tag": "all",
+        "dates": "2019-10-27",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 256608.15625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:32.907797",
+        "tag": "all",
+        "dates": "2019-10-28",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 225886.06810000003,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:33.069920",
+        "tag": "all",
+        "dates": "2019-10-28",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 260338.15625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:34.490765",
+        "tag": "all",
+        "dates": "2019-10-29",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 267655.2068,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:34.657737",
+        "tag": "all",
+        "dates": "2019-10-29",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 263394.21875,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:10:36.104138",
+        "tag": "all",
+        "dates": "2019-10-30",
+        "model_version": "000:00:01",
+        "runtime": 0.1,
+        "predictions": 268612.9359,
+        "notes": "rf",
+        "test": true
+    },
+    {
+        "timestamp": "2026-03-17T21:10:36.275297",
+        "tag": "all",
+        "dates": "2019-10-30",
+        "model_version": 0.1,
+        "runtime": "000:00:01",
+        "predictions": 262273.375,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:30:42.599074",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:30:43.224202",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:06",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:30:49.713688",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:30:50.361912",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:30:56.824840",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:30:57.491903",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:03.877553",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:04.506741",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:11.121131",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:11.808345",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:18.666966",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:19.334553",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:25.668973",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:26.292348",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:06",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:32.755469",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:33.376979",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:39.939867",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:40.562657",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:47.150553",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:47.780091",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:54.315341",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:31:54.937393",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:01.463097",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:02.092040",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:08.487351",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:09.105106",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:15.561697",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:16.292653",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:22.743584",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:23.390475",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:29.840929",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:30.453906",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:37.215988",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:37.840240",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:44.135513",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:44.842487",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:51.447477",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:52.064238",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:58.510043",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:32:59.164691",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:05.401348",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:06.120033",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:06",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:12.457463",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:13.067482",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:06",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:20.352803",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:07",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:20.988943",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:27.432784",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:28.111373",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:34.457183",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:35.075631",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:06",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:41.552917",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:42.198980",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:48.676684",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:49.364081",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:55.847344",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:33:56.466381",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:34:02.916300",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:34:03.654285",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:34:10.461934",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:34:11.202774",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:34:17.966087",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": "000:00:06",
+        "runtime": 0.1,
+        "predictions": 181656.8786,
+        "notes": "rf",
+        "test": false
+    },
+    {
+        "timestamp": "2026-03-17T21:34:18.581103",
+        "tag": "all",
+        "dates": "2018-01-05",
+        "model_version": 0.1,
+        "runtime": "000:00:07",
+        "predictions": 187484.765625,
+        "notes": "gbt",
+        "test": false
+    }
+]

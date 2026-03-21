@@ -31,7 +31,7 @@ def fetch_data(data_dir):
     if not len(os.listdir(data_dir)) > 0:
         raise Exception("specified data dir does not contain any files")
 
-    file_list = [os.path.join(data_dir,f) for f in os.listdir(data_dir) if re.search("\.json",f)]
+    file_list = [os.path.join(data_dir,f) for f in os.listdir(data_dir) if re.search(r"\.json",f)]
     correct_columns = ['country', 'customer_id', 'day', 'invoice', 'month',
                        'price', 'stream_id', 'times_viewed', 'year']
 
@@ -60,7 +60,7 @@ def fetch_data(data_dir):
     years,months,days = df['year'].values,df['month'].values,df['day'].values 
     dates = ["{}-{}-{}".format(years[i],str(months[i]).zfill(2),str(days[i]).zfill(2)) for i in range(df.shape[0])]
     df['invoice_date'] = np.array(dates,dtype='datetime64[D]')
-    df['invoice'] = [re.sub("\D+","",i) for i in df['invoice'].values]
+    df['invoice'] = [re.sub(r"\D+","",i) for i in df['invoice'].values]
     
     ## sort by date and reset the index
     df.sort_values(by='invoice_date',inplace=True)
@@ -106,6 +106,7 @@ def convert_to_ts(df_orig, country=None):
                             'total_views':views,
                             'year_month':year_month,
                             'revenue':revenue})
+
     return(df_time)
 
 
@@ -115,8 +116,8 @@ def fetch_ts(data_dir, clean=False):
     uses csv to load quickly
     use clean=True when you want to re-create the files
     """
-
-    ts_data_dir = os.path.join(data_dir,"ts-data")
+    PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    ts_data_dir = os.path.join(PROJECT_ROOT,'data',data_dir,"ts-data")
     
     if clean:
         shutil.rmtree(ts_data_dir)
@@ -126,7 +127,7 @@ def fetch_ts(data_dir, clean=False):
     ## if files have already been processed load them        
     if len(os.listdir(ts_data_dir)) > 0:
         print("... loading ts data from files")
-        return({re.sub("\.csv","",cf)[3:]:pd.read_csv(os.path.join(ts_data_dir,cf)) for cf in os.listdir(ts_data_dir)})
+        return({re.sub(r"\.csv","",cf)[3:]:pd.read_csv(os.path.join(ts_data_dir,cf)) for cf in os.listdir(ts_data_dir)})
 
     ## get original data
     print("... processing data for loading")
@@ -138,14 +139,14 @@ def fetch_ts(data_dir, clean=False):
     table.sort_values(by='total_revenue',inplace=True,ascending=False)
     top_ten_countries =  np.array(list(table.index))[:10]
 
-    file_list = [os.path.join(data_dir,f) for f in os.listdir(data_dir) if re.search("\.json",f)]
-    countries = [os.path.join(data_dir,"ts-"+re.sub("\s+","_",c.lower()) + ".csv") for c in top_ten_countries]
+    file_list = [os.path.join(data_dir,f) for f in os.listdir(data_dir) if re.search(r"\.json",f)]
+    countries = [os.path.join(data_dir,"ts-"+re.sub(r"\s+","_",c.lower()) + ".csv") for c in top_ten_countries]
 
     ## load the data
     dfs = {}
     dfs['all'] = convert_to_ts(df)
     for country in top_ten_countries:
-        country_id = re.sub("\s+","_",country.lower())
+        country_id = re.sub(r"\s+","_",country.lower())
         file_name = os.path.join(data_dir,"ts-"+ country_id + ".csv")
         dfs[country_id] = convert_to_ts(df,country=country)
 
@@ -179,23 +180,23 @@ def engineer_features(df,training=True):
         for num in previous:
             current = np.datetime64(day, 'D') 
             prev = current - np.timedelta64(num, 'D')
-            mask = np.in1d(dates, np.arange(prev,current,dtype='datetime64[D]'))
+            mask = np.isin(dates, np.arange(prev,current,dtype='datetime64[D]'))
             eng_features["previous_{}".format(num)].append(df[mask]['revenue'].sum())
 
         ## get get the target revenue    
         plus_30 = current + np.timedelta64(30,'D')
-        mask = np.in1d(dates, np.arange(current,plus_30,dtype='datetime64[D]'))
+        mask = np.isin(dates, np.arange(current,plus_30,dtype='datetime64[D]'))
         y[d] = df[mask]['revenue'].sum()
 
         ## attempt to capture monthly trend with previous years data (if present)
         start_date = current - np.timedelta64(365,'D')
         stop_date = plus_30 - np.timedelta64(365,'D')
-        mask = np.in1d(dates, np.arange(start_date,stop_date,dtype='datetime64[D]'))
+        mask = np.isin(dates, np.arange(start_date,stop_date,dtype='datetime64[D]'))
         eng_features['previous_year'].append(df[mask]['revenue'].sum())
 
         ## add some non-revenue features
         minus_30 = current - np.timedelta64(30,'D')
-        mask = np.in1d(dates, np.arange(minus_30,current,dtype='datetime64[D]'))
+        mask = np.isin(dates, np.arange(minus_30,current,dtype='datetime64[D]'))
         eng_features['recent_invoices'].append(df[mask]['unique_invoices'].mean())
         eng_features['recent_views'].append(df[mask]['total_views'].mean())
 
